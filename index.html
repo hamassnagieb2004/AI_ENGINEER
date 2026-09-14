@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Hamass Nagieb — AI Engineer portfolio. Turning ideas into intelligent solutions." />
+<meta name="theme-color" content="#f6ebe5" />
+<title>Hamass Nagieb — AI Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Animated Fluid Wave Background Atmosphere -->
+<div class="ambient" aria-hidden="true">
+  <div class="ambient-base"></div>
+  <div class="soft-light light-a"></div>
+  <div class="soft-light light-b"></div>
+  <div class="soft-light light-c"></div>
+
+  <div class="silk silk-a"></div>
+  <div class="silk silk-b"></div>
+  <div class="silk silk-c"></div>
+
+  <svg class="wave-lines" viewBox="0 0 1600 900" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="waveInk" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#c9a196" stop-opacity=".18"/>
+        <stop offset="50%" stop-color="#8e6258" stop-opacity=".30"/>
+        <stop offset="100%" stop-color="#d8b5a9" stop-opacity=".12"/>
+      </linearGradient>
+      <filter id="waveBlur"><feGaussianBlur stdDeviation="2"/></filter>
+    </defs>
+    <g class="wave-sculpture">
+      <path class="wave-ribbon ribbon-a" d="M-180 575 C 120 315, 400 805, 720 545 S 1260 180, 1780 385"/>
+      <path class="wave-ribbon ribbon-b" d="M-220 690 C 120 470, 455 870, 820 610 S 1320 280, 1810 505"/>
+      <path class="wave-ribbon ribbon-c" d="M-140 305 C 180 120, 470 445, 790 280 S 1260 55, 1740 215"/>
+    </g>
+    <path class="wave w1" d="M-120 620 C 180 380, 430 780, 760 535 S 1300 210, 1720 410"/>
+    <path class="wave w2" d="M-160 700 C 180 510, 440 830, 800 610 S 1320 290, 1760 520"/>
+    <path class="wave w3" d="M-100 250 C 260 90, 420 390, 760 260 S 1250 30, 1700 190"/>
+    <path class="wave w4" d="M-80 820 C 250 650, 520 920, 900 740 S 1380 560, 1740 700"/>
+  </svg>
+  <div class="mist mist-a"></div>
+  <div class="mist mist-b"></div>
+  <div class="micro-particles" id="particles"></div>
+  <div class="grain"></div>
+</div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#home" aria-label="Hamass Nagieb home">
+    <img src="assets/hn-monogram-clean.png" alt="HN monogram" />
+    <span><strong>HAMASS NAGIEB</strong><small>AI ENGINEER</small></span>
+  </a>
+  <nav class="desktop-nav" aria-label="Primary navigation">
+    <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <a class="connect" href="#contact">Let's Connect <span>→</span></a>
+    <button id="menu" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+</div>
+
+<main>
+<section class="story-section hero" id="home">
+  <div class="section-index">01 / 09</div>
+  
+  <div class="side-journey">
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <span class="progress-num" id="progressNum">01 / 09</span>
+  </div>
+
+  <div class="hero-copy reveal-in">
+    <span class="eyebrow">AI ENGINEER · DATA · INTELLIGENCE</span>
+    <h1>HAMASS<br><em>NAGIEB</em><sup>✦</sup></h1>
+    <h2>Turning Ideas Into <i>Intelligent Solutions.</i></h2>
+    <p>I build intelligent, human-centered solutions using AI, data, and modern technologies — from the first question to real-world impact.</p>
+    <div class="cta-row"><a class="btn filled" href="#projects">See My Work <span>→</span></a><a class="btn outline" href="#about">Start the Story <span>↓</span></a></div>
+  </div>
+
+  <div class="hero-visual reveal-in">
+    <div class="interactive-ai-card">
+      <div class="card-header">
+        <div class="status-indicator">
+          <span class="pulse-dot"></span>
+          <span class="status-text">SYSTEM ACTIVE</span>
+        </div>
+        <span class="card-label">AI ARCHITECTURE v2.0</span>
+      </div>
+
+      <div class="pipeline-section">
+        <small class="section-tag">THE METHODOLOGY</small>
+        <div class="pipeline-grid">
+          <div class="pipe-node active">
+            <span class="node-num">01</span>
+            <span class="node-title">Question</span>
+          </div>
+          <div class="pipe-node">
+            <span class="node-num">02</span>
+            <span class="node-title">Understand</span>
+          </div>
+          <div class="pipe-node">
+            <span class="node-num">03</span>
+            <span class="node-title">Build</span>
+          </div>
+          <div class="pipe-node">
+            <span class="node-num">04</span>
+            <span class="node-title">Improve</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="visual-split">
+        <div class="data-wave-box">
+          <small class="section-tag">DATA IMPACT</small>
+          <div class="equalizer">
+            <div class="eq-bar" style="--d: 0.1s; --h: 45%;"></div>
+            <div class="eq-bar" style="--d: 0.4s; --h: 80%;"></div>
+            <div class="eq-bar" style="--d: 0.2s; --h: 60%;"></div>
+            <div class="eq-bar" style="--d: 0.6s; --h: 95%;"></div>
+            <div class="eq-bar" style="--d: 0.3s; --h: 70%;"></div>
+          </div>
+        </div>
+
+        <div class="creative-code-box">
+          <small class="section-tag">EXECUTION</small>
+          <pre><code><span class="kwd">def</span> <span class="fn">solve</span>(p):
+  i = analyze(p)
+  <span class="kwd">return</span> build(i)</code></pre>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <div class="tag-pill">CURIOUS BY NATURE</div>
+        <span class="footer-quote">01 · Start with a question.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Redesigned Creative About Section -->
+<section class="story-section narrative" id="about">
+  <div class="section-index">02 / 09</div>
+  <div class="section-kicker">ABOUT · THE MINDSET</div>
+
+  <div class="about-creative-wrapper">
+    <div class="about-hero-title">
+      <span class="number">01</span>
+      <h2>It started with<br><i>curiosity.</i></h2>
+      
+      <div class="quote-glass-card">
+        <span class="quote-icon">“</span>
+        <p>I don't just want to make technology work.<br>I want to make it <strong>meaningful.</strong>”</p>
+      </div>
+    </div>
+
+    <div class="mindset-cards-grid">
+      <div class="mindset-card">
+        <div class="card-step-badge">01 / THE SPARK</div>
+        <h3>The Aha! Moment</h3>
+        <p>I've always been drawn to the moment when something complicated suddenly makes sense.</p>
+        <div class="card-glow-dot"></div>
+      </div>
+
+      <div class="mindset-card">
+        <div class="card-step-badge">02 / THE HABIT</div>
+        <h3>Breaking the Puzzle</h3>
+        <p>Ask better questions, break difficult problems into smaller pieces, look for patterns, and keep exploring until the pieces connect.</p>
+        <div class="card-glow-dot"></div>
+      </div>
+
+      <div class="mindset-card active-mindset">
+        <div class="card-step-badge">03 / THE PURPOSE</div>
+        <h3>Where AI Fits In</h3>
+        <p>AI became the place where data, logic, creativity, and engineering come together to turn an idea into something useful.</p>
+        <div class="card-glow-dot"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="story-section education" id="education">
+  <div class="section-index">03 / 09</div><div class="section-kicker">EDUCATION · THE FOUNDATION</div>
+  <div class="section-heading"><span class="number">02</span><h2>Learning became<br><i>building.</i></h2><p>Every stage added another layer to the way I solve problems.</p></div>
+  <div class="timeline"><div class="timeline-line"></div><article><span>01</span><small>FOUNDATION</small><h3>Computer Science & AI</h3><p>Building the fundamentals that make intelligent systems understandable — programming, data, algorithms, and problem solving.</p></article><article><span>02</span><small>EXPLORATION</small><h3>AI & Data Training</h3><p>Deepening practical skills through focused learning, labs, projects, and experimentation.</p></article><article><span>03</span><small>NOW</small><h3>Keep Learning. Keep Building.</h3><p>Turning every new concept into something I can explain, test, improve, and use.</p></article></div>
+</section>
+
+<section class="story-section skills" id="skills">
+  <div class="section-index">04 / 09</div><div class="section-kicker">SKILLS · THE TOOLKIT</div>
+  <div class="section-heading"><span class="number">03</span><h2>Different tools.<br><i>One mindset.</i></h2><p>Technology changes. The way I approach a problem stays curious, structured, and practical.</p></div>
+  <div class="skill-orbit"><div class="skill-center">AI<br><small>ENGINEERING</small></div><div class="skill-pill p1">Python</div><div class="skill-pill p2">Machine Learning</div><div class="skill-pill p3">Data Analysis</div><div class="skill-pill p4">Generative AI</div><div class="skill-pill p5">NLP</div><div class="skill-pill p6">SQL</div><div class="skill-pill p7">Git & GitHub</div><div class="skill-pill p8">APIs</div></div><div class="skill-note">DATA → MODELS → SYSTEMS → IMPACT</div>
+</section>
+
+<section class="story-section experience" id="experience">
+  <div class="section-index">05 / 09</div><div class="section-kicker">EXPERIENCE · FROM LEARNING TO BUILDING</div>
+  <div class="split-story"><div><span class="number">04</span><h2>Experience is<br><i>applied learning.</i></h2><p class="lead">I look for opportunities where I can turn knowledge into something real.</p></div><div class="experience-stack"><article><span>01 · PROJECT WORK</span><h3>From brief → solution</h3><p>Understand the goal, explore the data, choose the right approach, and build with intention.</p></article><article><span>02 · HANDS-ON LEARNING</span><h3>From concept → confidence</h3><p>Practice through notebooks, assignments, experiments, and iterative problem solving.</p></article><article><span>03 · COLLABORATION</span><h3>From idea → shared impact</h3><p>Communicate clearly, document decisions, and make technical work understandable.</p></article></div></div>
+</section>
+
+<section class="story-section services" id="services">
+  <div class="section-index">06 / 09</div><div class="section-kicker">SERVICES · WHAT I CAN BUILD</div>
+  <div class="service-head"><span class="number">05</span><h2>Ideas need more than<br><i>good code.</i></h2><p>They need clarity, a useful direction, and a system that can create value.</p></div>
+  <div class="service-grid"><article><b>01</b><span>DATA</span><h3>Analysis & Insight</h3><p>Turn raw information into patterns, visual stories, and useful decisions.</p></article><article><b>02</b><span>AI</span><h3>Intelligent Solutions</h3><p>Explore AI-powered workflows, language systems, and practical automation.</p></article><article><b>03</b><span>ML</span><h3>Predictive Thinking</h3><p>Prepare data, train models, evaluate results, and iterate toward better outcomes.</p></article><article><b>04</b><span>ENGINEERING</span><h3>Build & Connect</h3><p>Bring models and ideas into usable workflows through clean technical foundations.</p></article></div>
+</section>
+
+<section class="story-section projects" id="projects">
+  <div class="section-index">07 / 09</div><div class="section-kicker">PROJECTS · IDEAS IN MOTION</div>
+  <div class="project-head"><span class="number">06</span><h2>Where curiosity becomes<br><i>something you can use.</i></h2><p>Selected work is presented as a journey: problem → approach → system → result.</p></div>
+  <div class="project-cases"><article class="case"><div class="case-art"><span>AI</span><div class="case-grid"></div><i>01</i></div><div><small>CASE STUDY 01 · AI</small><h3>Intelligent Assistant</h3><p>A conversational AI concept focused on turning natural language into useful answers and actions.</p><b>LLM · NLP · Python</b></div></article><article class="case"><div class="case-art"><span>DATA</span><div class="case-grid"></div><i>02</i></div><div><small>CASE STUDY 02 · DATA</small><h3>Data → Insight</h3><p>An analytical workflow that transforms raw data into patterns, visual stories, and decisions.</p><b>Python · Pandas · Visualization</b></div></article><article class="case"><div class="case-art"><span>ML</span><div class="case-grid"></div><i>03</i></div><div><small>CASE STUDY 03 · ML</small><h3>Predictive Model</h3><p>A machine learning workflow built around preparation, modeling, evaluation, and iteration.</p><b>Python · ML · Evaluation</b></div></article></div>
+</section>
+
+<section class="story-section achievements" id="achievements">
+  <div class="section-index">08 / 09</div><div class="section-kicker">ACHIEVEMENTS · PROOF OF THE JOURNEY</div>
+  <div class="achievement-layout"><div><span class="number">07</span><h2>Small steps.<br><i>Real progress.</i></h2><p class="lead">The work behind the scenes matters: learning, practicing, documenting, and showing up consistently.</p></div><div class="milestones"><div><b>01</b><span>LEARNING</span><p>Focused training and continuous exploration.</p></div><div><b>02</b><span>BUILDING</span><p>Hands-on projects that turn concepts into practice.</p></div><div><b>03</b><span>SHARING</span><p>Clear communication and a growing technical portfolio.</p></div><div><b>04</b><span>GROWING</span><p>Always improving the craft behind the solution.</p></div></div></div>
+</section>
+
+<section class="story-section contact" id="contact">
+  <div class="section-index">09 / 09</div>
+  <div class="section-kicker">CONTACT · THE NEXT CHAPTER</div>
+  
+  <div class="contact-content">
+    <span class="number">08</span>
+    <h2>Let's build</h2>
+    <h3><i>what's next.</i></h3>
+    <p>Have an idea, a project, or a problem worth solving? Let's turn the question into something intelligent.</p>
+    
+    <!-- Direct Email CTA -->
+    <div class="cta-row main-contact-btn">
+      <a class="btn filled" href="mailto:hamassnagieb2004@gmail.com">Send an Email <span>→</span></a>
+      <a class="btn outline" href="#home">Back to Top <span>↑</span></a>
+    </div>
+
+    <!-- Social Media & Messaging Links -->
+    <div class="social-links-row">
+      <a href="https://www.linkedin.com/in/hamass-nagieb" target="_blank" rel="noopener" class="social-badge linkedin" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" class="social-icon"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.75a1.45 1.45 0 1 0 0 2.9 1.45 1.45 0 0 0 0-2.9Z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+
+      <a href="https://github.com/hamassnagieb2004" target="_blank" rel="noopener" class="social-badge github" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" class="social-icon"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.1-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+        <span>GitHub</span>
+      </a>
+
+      <a href="https://wa.me/01144756596" target="_blank" rel="noopener" class="social-badge whatsapp" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" class="social-icon"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c4.55 0 8.25 3.7 8.25 8.24c0 2.2-.86 4.27-2.42 5.83a8.21 8.21 0 0 1-5.83 2.41c-1.46 0-2.89-.39-4.14-1.13l-.3-.18l-3.08.81l.82-3l-.2-.31a8.16 8.16 0 0 1-1.25-4.39c0-4.54 3.7-8.24 8.24-8.24m4.53 11.53c-.25-.13-1.47-.72-1.7-.81c-.23-.08-.39-.13-.56.13c-.17.25-.65.81-.8.97c-.15.17-.3.19-.55.06c-.25-.13-1.06-.39-2.02-1.25c-.74-.66-1.24-1.47-1.39-1.72c-.15-.25-.02-.38.11-.51c.11-.11.25-.29.37-.44c.13-.15.17-.25.25-.42c.08-.17.04-.32-.02-.44c-.06-.13-.56-1.35-.77-1.85c-.2-.49-.41-.42-.56-.43c-.14 0-.3-.01-.47-.01c-.17 0-.44.06-.67.31c-.23.25-.88.86-.88 2.1c0 1.24.9 2.44 1.03 2.61c.13.17 1.77 2.7 4.28 3.79c.6.26 1.07.41 1.43.53c.6.19 1.15.16 1.58.1c.48-.07 1.47-.6 1.68-1.18c.21-.58.21-1.07.15-1.18c-.07-.11-.22-.18-.47-.3Z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+
+    <span class="email-note">hamassnagieb2004@gmail.com · replace with your real contact before publishing</span>
+  </div>
+  <div class="closing-mark">H<span>N</span></div>
+</section>
+<!-- <section class="story-section contact" id="contact">
+  <div class="section-index">09 / 09</div><div class="section-kicker">CONTACT · THE NEXT CHAPTER</div><div class="contact-content"><span class="number">08</span><h2>Let's build</h2><h3><i>what's next.</i></h3><p>Have an idea, a project, or a problem worth solving? Let's turn the question into something intelligent.</p><div class="cta-row"><a class="btn filled" href="mailto:hamassnagieb2004@gmail.com">Let's Connect <span>→</span></a><a class="btn outline" href="#home">Back to the Beginning <span>↑</span></a></div><span class="email-note">hamassnagieb2004@gmail.com · replace with your real contact before publishing</span></div><div class="closing-mark">H<span>N</span></div>
+</section> -->
+</main>
+
+<footer><span>© 2026 Hamass Nagieb</span><span>AI Engineer</span><span>Problem Solver</span><span>Lifelong Learner</span><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
